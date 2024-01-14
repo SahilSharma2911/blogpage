@@ -5,6 +5,7 @@ import React from "react";
 
 const LoginPage = () => {
   const { data, status } = useSession();
+  console.log(data)
   const router = useRouter();
 
   if (status === "loading") {
