@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Featured from "./comonents/featured/Featured";
 import CategoryList from "./comonents/categoryList/CategoryList";
+import CardList from "./comonents/cardList.jsx/CardList";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <div className="w-full md:w-3/5">
           {/* <CardList page={page} />
           <CardList /> */}
+          <CardList/>
         </div>
         <div className="w-2/5 hidden md:flex">
           {/* <Menu /> */}
